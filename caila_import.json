@@ -14,102 +14,148 @@
   "intents": [
     {
       "id": 6760,
-      "path": "/Bye",
+      "path": "/Пока",
       "enabled": true,
       "shared": false,
       "phrases": [
         {
-          "text": "goodbye"
+          "text": "пока"
         },
         {
-          "text": "bye"
+          "text": "до свидания"
         },
         {
-          "text": "see you"
+          "text": "ничем"
         }
       ],
       "patterns": []
     },
+
     {
       "id": 6761,
-      "path": "/Hello",
+      "path": "/Привет",
       "enabled": true,
       "shared": false,
       "phrases": [
         {
-          "text": "hi"
+          "text": "привет"
         },
         {
-          "text": "hello"
+          "text": "здравствуй"
         },
         {
-          "text": "welcome"
+          "text": "доброго времени суток"
         }
       ],
       "patterns": []
     },
     {
       "id": 6762,
-      "path": "/Smalltalk",
-      "enabled": true,
-      "shared": false,
-      "phrases": [],
-      "patterns": []
-    },
-    {
-      "id": 6763,
-      "path": "/Smalltalk/Help",
-      "description": "",
-      "answer": "I'm a templated bot and can't do useful things yet...",
+      "path": "/Привет/БиК",
       "enabled": true,
       "shared": false,
       "phrases": [
         {
-          "text": "help"
+          "text": "хочу сыграть"
         },
         {
-          "text": "what can you do"
+          "text": "давай поиграем"
         },
         {
-          "text": "your functions"
+          "text": "быки и коровы"
+        }
+      ],
+      "patterns": []
+    },
+    {
+      "id": 6763,
+      "path": "/Привет/БиК/Старт",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "да"
         },
         {
-          "text": "your possibilities"
+          "text": "готов"
         },
         {
-          "text": "tell me about you"
+          "text": "начинаем"
         }
       ],
       "patterns": []
     },
     {
       "id": 6764,
-      "path": "/Smalltalk/HowAreYou",
-      "answer": "I'm fine! Thank you!",
+      "path": "/Привет/БиК/Старт/Попытка",
+      "enabled": true,
+      "shared": false,
+      "phrases": [],
+      "patterns": []
+    },
+
+    {
+      "id": 6765,
+      "path": "/МаленькийРазговор",
+      "enabled": true,
+      "shared": false,
+      "phrases": [],
+      "patterns": []
+    },
+    {
+      "id": 6766,
+      "path": "/МаленькийРазговор/Помощь",
+      "description": "",
+      "answer": "Я просто пример и пока не могу ничем помочь...",
       "enabled": true,
       "shared": false,
       "phrases": [
         {
-          "text": "how are you"
+          "text": "помоги"
+        },
+        {
+          "text": "что ты умеешь"
+        },
+        {
+          "text": "какие твои функции"
+        },
+        {
+          "text": "твои возможности"
+        },
+        {
+          "text": "расскажи о себе"
         }
       ],
       "patterns": []
     },
     {
-      "id": 6765,
-      "path": "/Smalltalk/WhatIsYourName",
-      "answer": "I don't have a name yet, I'm just a bot",
+      "id": 6767,
+      "path": "/МаленькийРазговор/КакДела",
+      "answer": "У меня все хорошо, спасибо!",
       "enabled": true,
       "shared": false,
       "phrases": [
         {
-          "text": "what is your name"
+          "text": "как дела"
+        }
+      ],
+      "patterns": []
+    },
+    {
+      "id": 6768,
+      "path": "/МаленькийРазговор/КакТебяЗовут",
+      "answer": "У меня еще нет имени, я просто бот.",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "как тебя зовут"
         },
         {
-          "text": "how to name you"
+          "text": "как к тебе обращаться"
         },
         {
-          "text": "say me your name"
+          "text": "назови свое имя"
         }
       ],
       "patterns": []

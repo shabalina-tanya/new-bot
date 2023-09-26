@@ -1,3 +1,4 @@
+
 FROM openjdk:11-jdk-slim
 
 ENV JAICP_API_TOKEN = ""
